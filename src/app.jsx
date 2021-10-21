@@ -1,26 +1,27 @@
 import React from 'react'
 import {Switch, Route } from 'react-router-dom'
 
+import Posts from './components/posts/index.jsx'
+import Post from './components/post/index.jsx'
+import './index.css'
 import Header from './components/header/index.jsx'
-import ProductsPage from './pages/productspage.jsx'
-import Cart from './components/cart/index.jsx'
-
 
 export default function App() {
     return (
-    <>
+    <div className='app'>
     
             <Header />
             <Switch>
                 <Route exact path='/'>
-                    <ProductsPage />
+                    <Posts />
                 </Route>
-                <Route path='/cart'>
-                    <Cart />
+                <Route path='/:id'>
+                    <Post />
                 </Route>
             </Switch>
+
         
-    </>
+    </div>
         
         
     )

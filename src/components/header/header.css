@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #cbced4;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    margin-left: 40px;
+}
+
+.navbar a {
+    color: purple;
+}
+
+.navbar a:hover {
+    color: #f037ea;
+}

@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import App from './app.jsx'
 import store from './redux/store.js'
-import './index.css'
+
 
 
 ReactDOM.render(
